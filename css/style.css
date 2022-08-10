@@ -1,7 +1,8 @@
-/* ! nulling styles */
-/* ? nulling styles */
-/* * nulling styles */
-/* todo nulling styles */
+/*  ----------------------------------------------------------------
+  Alex Rozhkov
+  www.alexrozhkov.com
+  10-08-2022
+-------------------------------------------------------------------- */
 
 *,
 *:before,
@@ -38,6 +39,7 @@ body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
+  scroll-behavior: smooth;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -109,11 +111,8 @@ h6 {
 /* ! ========================= */
 
 [class*="__container"] {
-  /* ? селектор атрибута */
-  /* ? любой обьект с классом __conteiner будут примерены эти стили */
   max-width: 1057px;
   margin: 0px auto;
-  /* ? отступы безопастности */
   padding: 0px 15px;
 }
 
@@ -151,11 +150,12 @@ h6 {
 /* ! ========================= */
 
 .header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 50;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .header__container {
