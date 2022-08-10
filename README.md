@@ -1,1 +1,1 @@
-# lendingpage-stopvirus
+https://sasharozhkov.github.io/lendingpage-stopvirus
